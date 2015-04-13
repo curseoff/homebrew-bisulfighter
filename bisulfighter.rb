@@ -34,7 +34,7 @@ class Bisulfighter < Formula
   bottle do
     root_url "https://github.com/mtoutai/homebrew-bisulfighter/releases/download/bottles"
     cellar :any
-    sha256 "d7be8c05d4314c287460e628427dc55128dd8f1f79e51987e0176d59e8925017" => :yosemite
+    sha256 "fa9ef533697d70d0ca4e2cd90847a1b3356a86e6bd61157a39960981e3029474" => :yosemite
   end
 
 end
