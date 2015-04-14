@@ -3,7 +3,6 @@ class Bisulfighter < Formula
   url "https://github.com/yutaka-saito/Bisulfighter/archive/v20150318.tar.gz"
   sha256 "d305a5fd8f7b022d2f57bf3b8ff311279716e6a3dc0956510dc2a1d4d3311d1d"
 
-  depends_on "python"
   depends_on "boost"
   depends_on "last"
 
