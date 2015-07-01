@@ -1,7 +1,8 @@
 class Bisulfighter < Formula
   homepage "http://epigenome.cbrc.jp/bisulfighter/"
-  url "https://github.com/yutaka-saito/Bisulfighter/archive/v20150318.tar.gz"
-  sha256 "d305a5fd8f7b022d2f57bf3b8ff311279716e6a3dc0956510dc2a1d4d3311d1d"
+  url "https://github.com/yutaka-saito/Bisulfighter/archive/master.zip"
+  version "20150625"
+  sha256 "40dca3cfac66fcad97fb1dddb7d707d37868298922a47a993ed202af26e8405c"
 
   depends_on "boost"
   depends_on "last"
@@ -33,7 +34,7 @@ class Bisulfighter < Formula
   bottle do
     root_url "https://github.com/mtoutai/homebrew-bisulfighter/releases/download/bottles"
     cellar :any
-    sha256 "fa9ef533697d70d0ca4e2cd90847a1b3356a86e6bd61157a39960981e3029474" => :yosemite
+    sha256 "fc64735f35d4253692b902cdf7aa7e2b8f4519fd42c59642b78c57b052e9c50a" => :yosemite
   end
 
 end
