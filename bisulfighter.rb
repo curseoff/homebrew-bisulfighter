@@ -1,11 +1,11 @@
 class Bisulfighter < Formula
   homepage "http://epigenome.cbrc.jp/bisulfighter/"
   url "https://github.com/yutaka-saito/Bisulfighter/archive/master.zip"
-  version "20150625"
-  sha256 "40dca3cfac66fcad97fb1dddb7d707d37868298922a47a993ed202af26e8405c"
+  version "20150910"
+  sha256 "d3959c37704dda64b7f070614c045fc2ba1198e9d4a96d49e8ea29d600ef0631"
 
   depends_on "boost"
-  depends_on "last"
+  depends_on "mtoutai/last/last"
 
   def install
     Dir.chdir "ComMet"
@@ -34,7 +34,7 @@ class Bisulfighter < Formula
   bottle do
     root_url "https://github.com/mtoutai/homebrew-bisulfighter/releases/download/bottles"
     cellar :any
-    sha256 "fc64735f35d4253692b902cdf7aa7e2b8f4519fd42c59642b78c57b052e9c50a" => :yosemite
+    sha256 "98ae58bc9d4b9e6ceeed9594344fb260eba3d956df935b72b0a8b052c37ac150" => :yosemite
   end
 
 end
